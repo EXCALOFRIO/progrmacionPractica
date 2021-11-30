@@ -4,9 +4,10 @@ public class Ropa {
 
     private String marca;
     private String tipo;
-    private int talla;
+    private String talla;
 
-    public Ropa(String string) {
+    public Ropa(String marca, String tipo, String talla) {
+
     }
 
     public String toString() {

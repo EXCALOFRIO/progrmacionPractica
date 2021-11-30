@@ -9,7 +9,7 @@ public class Interfaz {
         String[] args = sentencia.split(" ");
         Catalogo catalogo = new Catalogo();
         if (args[0].equals("add")) {
-            Ropa ropa = new Ropa(args[1]);
+            Ropa ropa = new Ropa(args[1], args[2], args[3]);
             catalogo.anadirRopa(ropa);
         }
     }
