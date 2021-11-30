@@ -6,6 +6,9 @@ public class Ropa {
     private String tipo;
     private int talla;
 
+    public Ropa(String string) {
+    }
+
     public String toString() {
         return tipo + " " + marca + " " + talla + "\n";
     }

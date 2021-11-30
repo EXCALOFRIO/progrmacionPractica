@@ -6,4 +6,4 @@ ejecutar:compilar
 limpiar:
 	rm -rf bin
 jar:compilar
-	jar cvfm principal.jar manifest.txt -C bin .
+	jar cvfm principal.jar Manifest.txt -C bin .
