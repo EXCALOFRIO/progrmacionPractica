@@ -5,5 +5,6 @@ ejecutar:compilar
 	java -cp bin aplicacion.Principal
 limpiar:
 	rm -rf bin
-jar:compilar
+	
+jar:ejecutar
 	jar cvfm principal.jar Manifest.txt -C bin .

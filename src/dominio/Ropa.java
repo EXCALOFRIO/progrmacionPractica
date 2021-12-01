@@ -2,12 +2,14 @@ package dominio;
 
 public class Ropa {
 
-    private String marca;
-    private String tipo;
-    private String talla;
+    public String marca;
+    public String tipo;
+    public String talla;
 
     public Ropa(String marca, String tipo, String talla) {
-
+        this.marca = marca;
+        this.tipo = tipo;
+        this.talla = talla;
     }
 
     public String toString() {

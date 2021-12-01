@@ -9,6 +9,5 @@ public class Principal {
             sentencia += args[i] + " ";
         }
         Interfaz.procesarSentencia(sentencia);
-
     }
 }
